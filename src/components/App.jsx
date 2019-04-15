@@ -18,7 +18,7 @@ const App = () => {
           <HeaderStyled />
         </Header>
         <Layout>
-          <Sider collapsedWidth={0} breakpoint="md" width="250px">
+          <Sider collapsedWidth={0} breakpoint="sm" width="250px">
             <SideBar />
           </Sider>
           <Content>

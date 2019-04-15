@@ -38,4 +38,5 @@ const mapStateToProps = (state) => ({
   menu: state.menu
 })
 
-export default connect(mapStateToProps)(SideBar)
+
+export default connect(mapStateToProps, null, null,{pure: false})(SideBar)
